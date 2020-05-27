@@ -11,7 +11,7 @@ export default function Task({
       <label className="checkbox">
         <input
           type="checkbox"
-          defaultChecked={state === 'TASK_ARCHIVED'}
+          checked={state === 'TASK_ARCHIVED'}
           disabled={true}
           name="checked"
         />
