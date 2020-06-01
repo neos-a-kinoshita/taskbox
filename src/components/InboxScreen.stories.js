@@ -9,6 +9,9 @@ export default {
   component: PureInboxScreen,
   title: 'InboxScreen',
   decorators: [(story) => <Provider store={store}>{story()}</Provider>],
+  parameters: {
+    assets: ['designs/app.png'],
+  },
 };
 
 // A super-simple mock of a redux store

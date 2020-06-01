@@ -7,6 +7,12 @@ export default {
   component: PureTaskList,
   title: 'TaskList',
   decorators: [(story) => <div style={{ padding: '3rem' }}>{story()}</div>],
+  parameters: {
+    assets: [
+      { name: 'list1', url: 'designs/list-1.png' },
+      'designs/list-2.png',
+    ],
+  },
   excludeStories: /.*Data$/,
 };
 

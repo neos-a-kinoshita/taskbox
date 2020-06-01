@@ -9,11 +9,7 @@ export default {
   title: 'Task',
   decorators: [withKnobs],
   parameters: {
-    assets: [
-      'path/to/your/asset.png',
-      'path/to/another/asset.png',
-      'path/to/yet/another/asset.png',
-    ],
+    assets: ['designs/items.png'],
   },
   excludeStories: /.*Data$/,
 };
